@@ -1,0 +1,522 @@
+{
+    "CPLEXSolution": {
+        "version": "1.0",
+        "header": {
+            "problemName": "bridge+torch",
+            "objectiveValue": "15.0",
+            "solved_by": "cplex_local"
+        },
+        "variables": [
+            {
+                "index": "0",
+                "name": "x_A_1",
+                "value": "1.0"
+            },
+            {
+                "index": "3",
+                "name": "x_A_4",
+                "value": "1.0"
+            },
+            {
+                "index": "4",
+                "name": "x_A_5",
+                "value": "1.0"
+            },
+            {
+                "index": "5",
+                "name": "x_B_1",
+                "value": "1.0"
+            },
+            {
+                "index": "6",
+                "name": "x_B_2",
+                "value": "1.0"
+            },
+            {
+                "index": "9",
+                "name": "x_B_5",
+                "value": "1.0"
+            },
+            {
+                "index": "12",
+                "name": "x_C_3",
+                "value": "1.0"
+            },
+            {
+                "index": "17",
+                "name": "x_D_3",
+                "value": "1.0"
+            },
+            {
+                "index": "20",
+                "name": "s_A_0",
+                "value": "1.0"
+            },
+            {
+                "index": "24",
+                "name": "s_A_4",
+                "value": "1.0"
+            },
+            {
+                "index": "26",
+                "name": "s_B_0",
+                "value": "1.0"
+            },
+            {
+                "index": "28",
+                "name": "s_B_2",
+                "value": "1.0"
+            },
+            {
+                "index": "29",
+                "name": "s_B_3",
+                "value": "1.0"
+            },
+            {
+                "index": "30",
+                "name": "s_B_4",
+                "value": "1.0"
+            },
+            {
+                "index": "32",
+                "name": "s_C_0",
+                "value": "1.0"
+            },
+            {
+                "index": "33",
+                "name": "s_C_1",
+                "value": "1.0"
+            },
+            {
+                "index": "34",
+                "name": "s_C_2",
+                "value": "1.0"
+            },
+            {
+                "index": "38",
+                "name": "s_D_0",
+                "value": "1.0"
+            },
+            {
+                "index": "39",
+                "name": "s_D_1",
+                "value": "1.0"
+            },
+            {
+                "index": "40",
+                "name": "s_D_2",
+                "value": "1.0"
+            },
+            {
+                "index": "45",
+                "name": "f_A_1",
+                "value": "1.0"
+            },
+            {
+                "index": "46",
+                "name": "f_A_2",
+                "value": "1.0"
+            },
+            {
+                "index": "47",
+                "name": "f_A_3",
+                "value": "1.0"
+            },
+            {
+                "index": "49",
+                "name": "f_A_5",
+                "value": "1.0"
+            },
+            {
+                "index": "51",
+                "name": "f_B_1",
+                "value": "1.0"
+            },
+            {
+                "index": "55",
+                "name": "f_B_5",
+                "value": "1.0"
+            },
+            {
+                "index": "59",
+                "name": "f_C_3",
+                "value": "1.0"
+            },
+            {
+                "index": "60",
+                "name": "f_C_4",
+                "value": "1.0"
+            },
+            {
+                "index": "61",
+                "name": "f_C_5",
+                "value": "1.0"
+            },
+            {
+                "index": "65",
+                "name": "f_D_3",
+                "value": "1.0"
+            },
+            {
+                "index": "66",
+                "name": "f_D_4",
+                "value": "1.0"
+            },
+            {
+                "index": "67",
+                "name": "f_D_5",
+                "value": "1.0"
+            },
+            {
+                "index": "69",
+                "name": "w_1",
+                "value": "2.0"
+            },
+            {
+                "index": "70",
+                "name": "w_2",
+                "value": "2.0"
+            },
+            {
+                "index": "71",
+                "name": "w_3",
+                "value": "8.0"
+            },
+            {
+                "index": "72",
+                "name": "w_4",
+                "value": "1.0"
+            },
+            {
+                "index": "73",
+                "name": "w_5",
+                "value": "2.0"
+            }
+        ],
+        "linearConstraints": [
+            {
+                "name": null,
+                "index": 0
+            },
+            {
+                "name": null,
+                "index": 1
+            },
+            {
+                "name": null,
+                "index": 2
+            },
+            {
+                "name": null,
+                "index": 3
+            },
+            {
+                "name": null,
+                "index": 4
+            },
+            {
+                "name": null,
+                "index": 5
+            },
+            {
+                "name": null,
+                "index": 6
+            },
+            {
+                "name": null,
+                "index": 7
+            },
+            {
+                "name": null,
+                "index": 8
+            },
+            {
+                "name": null,
+                "index": 9
+            },
+            {
+                "name": null,
+                "index": 10
+            },
+            {
+                "name": null,
+                "index": 11
+            },
+            {
+                "name": null,
+                "index": 12
+            },
+            {
+                "name": null,
+                "index": 13
+            },
+            {
+                "name": null,
+                "index": 14
+            },
+            {
+                "name": null,
+                "index": 15
+            },
+            {
+                "name": null,
+                "index": 16
+            },
+            {
+                "name": null,
+                "index": 17
+            },
+            {
+                "name": null,
+                "index": 18
+            },
+            {
+                "name": null,
+                "index": 19
+            },
+            {
+                "name": null,
+                "index": 20
+            },
+            {
+                "name": null,
+                "index": 21
+            },
+            {
+                "name": null,
+                "index": 22
+            },
+            {
+                "name": null,
+                "index": 23
+            },
+            {
+                "name": null,
+                "index": 24
+            },
+            {
+                "name": null,
+                "index": 25
+            },
+            {
+                "name": null,
+                "index": 26
+            },
+            {
+                "name": null,
+                "index": 27
+            },
+            {
+                "name": null,
+                "index": 28
+            },
+            {
+                "name": null,
+                "index": 29
+            },
+            {
+                "name": null,
+                "index": 30
+            },
+            {
+                "name": null,
+                "index": 31
+            },
+            {
+                "name": null,
+                "index": 32
+            },
+            {
+                "name": null,
+                "index": 33
+            },
+            {
+                "name": null,
+                "index": 34
+            },
+            {
+                "name": null,
+                "index": 35
+            },
+            {
+                "name": null,
+                "index": 36
+            },
+            {
+                "name": null,
+                "index": 37,
+                "slack": -1.0
+            },
+            {
+                "name": null,
+                "index": 38,
+                "slack": -2.0
+            },
+            {
+                "name": null,
+                "index": 39,
+                "slack": -8.0
+            },
+            {
+                "name": null,
+                "index": 40
+            },
+            {
+                "name": null,
+                "index": 41,
+                "slack": -1.0
+            },
+            {
+                "name": null,
+                "index": 42
+            },
+            {
+                "name": null,
+                "index": 43
+            },
+            {
+                "name": null,
+                "index": 44,
+                "slack": -8.0
+            },
+            {
+                "name": null,
+                "index": 45,
+                "slack": -1.0
+            },
+            {
+                "name": null,
+                "index": 46
+            },
+            {
+                "name": null,
+                "index": 47,
+                "slack": -2.0
+            },
+            {
+                "name": null,
+                "index": 48,
+                "slack": -2.0
+            },
+            {
+                "name": null,
+                "index": 49,
+                "slack": -3.0
+            },
+            {
+                "name": null,
+                "index": 50,
+                "slack": -1.0
+            },
+            {
+                "name": null,
+                "index": 51,
+                "slack": -2.0
+            },
+            {
+                "name": null,
+                "index": 52,
+                "slack": -2.0
+            },
+            {
+                "name": null,
+                "index": 53,
+                "slack": -2.0
+            },
+            {
+                "name": null,
+                "index": 54
+            },
+            {
+                "name": null,
+                "index": 55,
+                "slack": -1.0
+            },
+            {
+                "name": null,
+                "index": 56,
+                "slack": -2.0
+            },
+            {
+                "name": null,
+                "index": 57
+            },
+            {
+                "name": null,
+                "index": 58
+            },
+            {
+                "name": null,
+                "index": 59
+            },
+            {
+                "name": null,
+                "index": 60
+            },
+            {
+                "name": null,
+                "index": 61
+            },
+            {
+                "name": null,
+                "index": 62
+            },
+            {
+                "name": null,
+                "index": 63
+            },
+            {
+                "name": null,
+                "index": 64
+            },
+            {
+                "name": null,
+                "index": 65
+            },
+            {
+                "name": null,
+                "index": 66
+            },
+            {
+                "name": null,
+                "index": 67
+            },
+            {
+                "name": null,
+                "index": 68
+            },
+            {
+                "name": null,
+                "index": 69
+            },
+            {
+                "name": null,
+                "index": 70
+            },
+            {
+                "name": null,
+                "index": 71
+            },
+            {
+                "name": null,
+                "index": 72
+            },
+            {
+                "name": null,
+                "index": 73
+            },
+            {
+                "name": null,
+                "index": 74
+            },
+            {
+                "name": null,
+                "index": 75
+            },
+            {
+                "name": null,
+                "index": 76
+            }
+        ]
+    }
+}
